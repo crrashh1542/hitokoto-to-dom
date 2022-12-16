@@ -15,7 +15,7 @@
   
 由于考虑到会用 module 的人也一定会用上述技术了，故本项目不提供 module 的引入。
 ```html
-<script src="https://res.crrashh.cn/htd-dist/1.0.0/htd.min.js">
+<script src="js/htd.min.js">
 ```
 2. 确定你要引入的元素，以及各种接口的参数  
 ```javascript
