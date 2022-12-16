@@ -13,12 +13,12 @@ Hitokoto 官方虽然提供了 `Javascript` 版本的调用，但是仅能单一
 ```html
 <script src="js/htd.min.js">
 ```
-2. 确定你要引入的元素，以及各种接口的参数  
+2. 确定各种接口的参数  
 ```javascript
-htd.elementId = "hitokoto";
-htd.parameter = {
-   // ...
-}
+htd.c = "";
+htd.charset = "utf-8";
+htd.maxLength = ""
+htd.minLength = ""
 ```
 同时在页面中插入：  
 ```html
